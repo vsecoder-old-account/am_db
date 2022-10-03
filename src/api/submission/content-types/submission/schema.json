@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submissions",
+  "info": {
+    "singularName": "submission",
+    "pluralName": "submissions",
+    "displayName": "submission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nickname": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "rp_name": {
+      "type": "string",
+      "required": true
+    },
+    "rp_bio": {
+      "type": "string",
+      "required": true
+    },
+    "devote_time": {
+      "type": "string"
+    },
+    "found_out": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "age": {
+      "type": "string",
+      "required": true
+    },
+    "social": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    }
+  }
+}
